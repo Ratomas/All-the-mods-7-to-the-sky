@@ -28,7 +28,7 @@ After the first run it will simply start the server.
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx6144m"
-* MOTD "A Minecraft (All the Mods 7 to the Sky II 1.1.3) Server Powered by Docker"
+* MOTD "A Minecraft (All the Mods 7 to the Sky 1.1.3) Server Powered by Docker"
 * LEVEL world
 * LEVELTYPE ""
 
