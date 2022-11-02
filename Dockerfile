@@ -23,7 +23,7 @@ EXPOSE 25565/tcp
 
 CMD ["/launch.sh"]
 
-ENV MOTD "ll-the-mods-7-to-the-sky v1.1.3 Server Powered by Docker"
+ENV MOTD "All the Mods 7 to the Sky v1.1.3 Server Powered by Docker"
 ENV LEVEL world
 ENV LEVELTYPE ""
 ENV JVM_OPTS "-Xms2048m -Xmx6144m"
