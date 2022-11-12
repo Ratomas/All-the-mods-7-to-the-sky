@@ -2,7 +2,7 @@
 
 FROM openjdk:17-jdk-buster
 
-LABEL version="1.1.4"
+LABEL version="1.1.5"
 
 RUN apt-get update && apt-get install -y curl unzip dos2unix && \
  addgroup minecraft && \
@@ -23,7 +23,7 @@ EXPOSE 25565/tcp
 
 CMD ["/launch.sh"]
 
-ENV MOTD "All the Mods 7 to the Sky v1.1.4 Server Powered by Docker"
+ENV MOTD "All the Mods 7 to the Sky v1.1.5 Server Powered by Docker"
 ENV LEVEL world
 ENV LEVELTYPE ""
 ENV JVM_OPTS "-Xms2048m -Xmx6144m"
