@@ -12,7 +12,7 @@ else
 fi
 
 if ! [[ -f server-1.2.2.sh ]]; then
-	rm -fr config defaultconfigs kubejs mods packmenu server-*.sh server.properties
+	rm -fr config defaultconfigs kubejs libraries mods packmenu server-*.sh server.properties
 	mv /server/* /data/
 fi
 
