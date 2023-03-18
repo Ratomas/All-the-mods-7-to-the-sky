@@ -11,7 +11,7 @@ else
 	exit 9
 fi
 
-if ! [[ -f server-1.1.5.sh ]]; then
+if ! [[ -f server-1.2.2.sh ]]; then
 	rm -fr config defaultconfigs kubejs mods packmenu server-*.sh server.properties
 	mv /server/* /data/
 fi
@@ -30,4 +30,4 @@ if [[ -n "$OPS" ]]; then
     echo $OPS | awk -v RS=, '{print}' >> ops.txt
 fi
 
-./server-1.1.5.sh
+./server-1.2.2.sh
